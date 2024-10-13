@@ -344,4 +344,4 @@ Challenge_Completion_description,"Congratulations on escaping the Mansion!"
 Challenge_Completion_subtitle,"Congratulations!"
 
 Quest_Completion_tip_title,Completed The Frantic Mansion Challenge
-Quest_Completion_tip,"[FFFF00]Congratulations! [-]\n\nFrantic Dan sent you, eh? You must be some kind of crazy to take on this challenge, but, you made it!\n\nIf this is your kind of thing, you should check out The Spencer Mansion Incident Mod, which plays more like Resident Evil!\n\nYou can find it on 7daystodiemods dot com"
+Quest_Completion_tip,"[FFFF00]Congratulations! [-]\n\nFrantic Dan sent you, eh? You must be some kind of crazy to take on this challenge, but, you made it!\n\nIf this is your kind of thing, you should check out The Spencer Mansion Incident Mod, which plays more like Resident Evil!\n\nYou can find it here:\n\nhttps://7daystodiemods.com/the-spencer-mansion-incident-resident-evil/"
