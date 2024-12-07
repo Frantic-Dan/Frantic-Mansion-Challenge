@@ -77,13 +77,13 @@
 		<challenge name="craftGyroCopterAccessories" title_key="challengeGyroCopterAccessories" icon="ui_game_symbol_assemble" group="Accessories"
 		           hint="challengeCraftGyroCopterAccessoriesHint1"
 		           short_description_key="challengeGyroCopterAccessoriesShort" description_key="challengeGyroCopterAccessoriesDesc">
-			<objective type="Craft" item="vehicleGyroCopterAccessories"/>
+			<objective type="Gather" item="vehicleGyroCopterAccessories"/>
 		</challenge>
 		
 		<challenge name="craftGyroCopterChassis" title_key="challengeGyroCopterChassis" icon="ui_game_symbol_assemble" group="Accessories"
 		           hint="challengeCraftGyroCopterChassisHint1"
 		           short_description_key="challengeCraftGyroCopterChassisShort" description_key="challengeCraftGyroCopterChassisDesc">
-			<objective type="Craft" item="vehicleGyroCopterChassis"/>
+			<objective type="Gather" item="vehicleGyroCopterChassis"/>
 		</challenge>
 
 		<challenge name="gatherResourcesGyroCopter1" title_key="challengeGatherResourcesGyroCopter1" icon="ui_game_symbol_modded" group="Gyrocopter"
@@ -119,7 +119,7 @@
 		<challenge name="craftGyroCopter" title_key="challengeCraftGyroCopter" icon="ui_game_symbol_gyrocopter" group="Gyrocopter"
 		           hint="challengeCraftGyroCopterHint1"
 		           short_description_key="challengeCraftGyroCopterShort" description_key="challengeCraftGyroCopterDesc">
-			<objective type="Craft" item="vehicleGyrocopterPlaceable"/>
+			<objective type="Gather" item="vehicleGyrocopterPlaceable"/>
 		</challenge>
 
 		<challenge name="groupCompleteChallenge" title_key="challengeGroupComplete" icon="ui_game_symbol_challenge_basics_redeem_rewards" group="Escape"
