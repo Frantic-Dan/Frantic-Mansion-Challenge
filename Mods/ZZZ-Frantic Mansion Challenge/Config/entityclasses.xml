@@ -122,22 +122,22 @@
 	</append>
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieTomClark')]">
-		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerSteveAndTomLoot"/>
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerTomLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieTomClarkRadiated')]">
-		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerRadSteveAndTomLoot"/>
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerRadTomLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieSteve') and not (contains(@name, 'zombieSteveCrawler'))]">
-		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerSteveAndTomLoot"/>
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerSteveLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
 	
 	<append xpath="//entity_class[starts-with(@name, 'zombieSteveRadiated') and not (contains(@name, 'zombieSteveCrawler'))]">
-		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerRadSteveAndTomLoot"/>
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerRadSteveLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
 	
@@ -326,12 +326,20 @@
 		<property name="LootListOnDeath" value="RadZombieFemaleLoot" />
 	</entity_class>
 	
-	<entity_class name="DishongEntityLootContainerSteveAndTomLoot" extends="DishongEntityLootContainer">
-		<property name="LootListOnDeath" value="SteveandTomLoot" />
+	<entity_class name="DishongEntityLootContainerSteveLoot" extends="DishongEntityLootContainer">
+		<property name="LootListOnDeath" value="SteveLoot" />
 	</entity_class>
 	
-	<entity_class name="DishongEntityLootContainerRadSteveAndTomLoot" extends="DishongEntityLootContainer">
-		<property name="LootListOnDeath" value="RadSteveandTomLoot" />
+	<entity_class name="DishongEntityLootContainerRadSteveLoot" extends="DishongEntityLootContainer">
+		<property name="LootListOnDeath" value="RadSteveLoot" />
+	</entity_class>
+	
+	<entity_class name="DishongEntityLootContainerTomLoot" extends="DishongEntityLootContainer">
+		<property name="LootListOnDeath" value="TomLoot" />
+	</entity_class>
+	
+	<entity_class name="DishongEntityLootContainerRadTomLoot" extends="DishongEntityLootContainer">
+		<property name="LootListOnDeath" value="RadTomLoot" />
 	</entity_class>
 
 	<entity_class name="DishongEntityLootContainerZombieMaleLoot" extends="DishongEntityLootContainer">
