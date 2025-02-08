@@ -50,6 +50,11 @@ DishongEntityLootContainerRadZombieMaleLoot,Special Loot
 DishongEntityLootContainerRadFatZombieLoot,Special Loot
 DishongEntityLootContainerRadNurseLoot,Special Loot
 DishongEntityLootContainerRadLabWorkerLoot,Special Loot
+DishongEntityLootContainerSteveLoot,Special Loot
+DishongEntityLootContainerRadSteveLoot,Special Loot
+DishongEntityLootContainerTomLoot,Special Loot
+DishongEntityLootContainerRadTomLoot,Special Loot
+
 
 perkGreaseMonkeyRank1Desc,Wheely good
 perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
