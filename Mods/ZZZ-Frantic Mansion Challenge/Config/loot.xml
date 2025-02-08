@@ -284,8 +284,8 @@
 		</lootgroup>
 		
 		<lootgroup name="groupRadTomLoot" count="all">
-			<item name="resourceDoorKnob" prob=".2" force_prob="true" tags="RoLoot"/>
-			<item name="resourceGlue" prob=".2" force_prob="true" tags="TrLoot"/>
+			<item name="resourceDoorKnob" prob=".3" force_prob="true" tags="RoLoot"/>
+			<item name="resourceGlue" prob=".3" force_prob="true" tags="TrLoot"/>
 			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
 		</lootgroup>
 		
