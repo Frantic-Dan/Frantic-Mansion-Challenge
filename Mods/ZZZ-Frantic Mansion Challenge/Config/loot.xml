@@ -265,15 +265,27 @@
 			<item name="questRewardT1SkillMagazineBundle" prob=".2" force_prob="true" />			
 		</lootgroup>
 		
-		<lootgroup name="groupSteveandTomLoot" count="all">
-			<item name="roboticsSkillMagazineDT" prob=".1" force_prob="true" tags="RoLoot"/>
-			<item name="trapsSkillMagazineDT" prob=".1" force_prob="true" tags="TrLoot"/>
+		<lootgroup name="groupSteveLoot" count="all">
+			<item name="roboticsSkillMagazineDT" prob=".2" force_prob="true" tags="RoLoot"/>
+			<item name="trapsSkillMagazineDT" prob=".2" force_prob="true" tags="TrLoot"/>
 			<item group="groupTechBooks" loot_prob_template="veryLow" force_prob="true" tags="RoLoot"/>
 		</lootgroup>
 		
-		<lootgroup name="groupRadSteveandTomLoot" count="all">
-			<item name="roboticsSkillMagazineDT" prob=".2" force_prob="true" tags="RoLoot"/>
-			<item name="trapsSkillMagazineDT" prob=".2" force_prob="true" tags="TrLoot"/>
+		<lootgroup name="groupRadSteveLoot" count="all">
+			<item name="roboticsSkillMagazineDT" prob=".3" force_prob="true" tags="RoLoot"/>
+			<item name="trapsSkillMagazineDT" prob=".3" force_prob="true" tags="TrLoot"/>
+			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupTomLoot" count="all">
+			<item name="resourceDoorKnob" prob=".15" force_prob="true" tags="RoLoot"/>
+			<item name="resourceGlue" prob=".15" force_prob="true" tags="TrLoot"/>
+			<item group="groupTechBooks" loot_prob_template="veryLow" force_prob="true" tags="RoLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupRadTomLoot" count="all">
+			<item name="resourceDoorKnob" prob=".2" force_prob="true" tags="RoLoot"/>
+			<item name="resourceGlue" prob=".2" force_prob="true" tags="TrLoot"/>
 			<item group="groupTechBooks" loot_prob_template="low" force_prob="true" tags="RoLoot"/>
 		</lootgroup>
 		
@@ -587,12 +599,20 @@
 			<item group="groupRadZombieMaleLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="SteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
-			<item group="groupSteveandTomLoot"/>
+		<lootcontainer name="SteveLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupSteveLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadSteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
-			<item group="groupRadSteveandTomLoot"/>
+		<lootcontainer name="RadSteveLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupRadSteveLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="TomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupTomLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="RadTomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupRadTomLoot"/>
 		</lootcontainer>
 		
 		<lootcontainer name="ZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time=".1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
