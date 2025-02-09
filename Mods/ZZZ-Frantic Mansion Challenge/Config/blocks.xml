@@ -89,7 +89,7 @@
 			<property name="Material" value="Mbedrock"/>
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="438"/>
+			<property name="Texture" value="1"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -143,7 +143,7 @@
 			<property name="Material" value="Mbedrock"/>
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="195,570,570,570,570,570"/>
+			<property name="Texture" value="1"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -173,7 +173,7 @@
 			<property name="Material" value="Mbedrock"/>
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="288,570,570,570,570,570"/>
+			<property name="Texture" value="1"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -203,7 +203,7 @@
 			<property name="Material" value="Mbedrock"/>
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="185,184,184,184,184,184"/>
+			<property name="Texture" value="1"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
@@ -231,7 +231,7 @@
 			<property name="Material" value="Mbedrock"/>
 			<property name="Shape" value="Terrain"/>
 			<property name="Mesh" value="terrain"/>
-			<property name="Texture" value="6,569,569,569,569,569"/><!-- 569: stone texture 1 with dirt sound -->
+			<property name="Texture" value="1"/><!-- 569: stone texture 1 with dirt sound -->
 			<property name="ImposterExclude" value="true"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="EconomicBundleSize" value="1"/>
