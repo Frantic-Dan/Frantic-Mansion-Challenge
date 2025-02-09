@@ -71,6 +71,16 @@
 		<property name="DishongLootDropProb" value="1"/>
 	</append>
 	
+	<append xpath="//entity_class[starts-with(@name, 'zombieInmate')]">
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerJanitorLoot"/>
+		<property name="DishongLootDropProb" value="1"/>
+	</append>
+	
+	<append xpath="//entity_class[starts-with(@name, 'zombieInmateRadiated')]">
+		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerRadJanitorLoot"/>
+		<property name="DishongLootDropProb" value="1"/>
+	</append>
+	
 	<append xpath="//entity_class[starts-with(@name, 'zombieSkateboarder')]">
 		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerSkateboarderLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
