@@ -6,6 +6,9 @@
 	<set xpath="//entity_class[@name='EntityLootContainerStrong']/property[@name='TimeStayAfterDeath']/@value">3600</set>
 	<set xpath="//entity_class[@name='EntityLootContainerBoss']/property[@name='TimeStayAfterDeath']/@value">3600</set>
 	
+	<remove xpath="/entity_classes/entity_class[@name='zombieSpider']//property[@name='SoundHurt']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieSpider']//property[@name='SoundDeath']"/>
+	
 	<append xpath="//entity_class[starts-with(@name, 'zombieUtilityWorker')]">
 		<property name="DishongLootDropEntityClass" value="DishongEntityLootContainerUtilityWorkerLoot"/>
 		<property name="DishongLootDropProb" value="1"/>
