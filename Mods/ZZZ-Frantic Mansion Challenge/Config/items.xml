@@ -395,4 +395,9 @@
 			</effect_group>
 		</item>
 	</insertafter>
+	
+	<insertafter xpath="//item[@name='foodCropMushrooms']/effect_group/triggered_effect[4]">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="twitch_buffTrippy"/>
+	</insertafter>
+	
 </configs>
